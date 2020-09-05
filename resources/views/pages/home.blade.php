@@ -11,6 +11,21 @@
   
     <p class="lead">Let do this........ keep going.</p>
   </div>
+     @if($hour<12)
+     
+     <div class="alert alert-success" role="alert">
+      <p class="lead"> hi ,Good Morning</p>
+    
+    </div>
+     
+     @else
+      <div class="alert alert-success" role="alert">
+      <p class="lead"> hi ,Good Day</p>
+      @endif
+    </div>
+     
+       
+
 </div>
 
 
