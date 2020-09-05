@@ -1,14 +1,14 @@
 @extends('layout.app')
 
-@section('title', 'features')
+@section('title', 'teams')
 
 
 @section('content')
     
     <div class="jumbotron jumbotron-fluid">
   <div class="container">
-    <h1 class="display-4">Features</h1>
-    <p class="lead">list the  our products....</p>
+    <h1 class="display-4">Teams</h1>
+    <p class="lead">list the  our teams...</p>
   </div>
 </div>
 @endsection

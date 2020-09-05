@@ -29,7 +29,7 @@
         <a class="nav-link" href="home">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="features">Features</a>
+        <a class="nav-link" href="teams">our team</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="about">About us</a>

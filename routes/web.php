@@ -15,17 +15,12 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('home', function () {
-    return view('pages.home');
-});
-Route::get('about', function () {
-    return view('pages.about');
-});
-Route::get('contact', function () {
-    return view('pages.contact');
-});
-Route::get('features', function () {
-    return view('pages.features');
-});
+
+
+Route::get('home', 'PageController@home');
+Route::get('about', 'PageController@about');
+Route::get('contact', 'PageController@contact');
+Route::get('teams', 'PageController@teams');
+
 
 
